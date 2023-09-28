@@ -32,6 +32,7 @@ public class Zadatak2 {
         for (int i = 0; i < x.size(); i++) {
             if (windows.size()>0){
                 x.get(i).click();
+                System.out.println("Notification is deleted");
                 Thread.sleep(1000);
             }
 
