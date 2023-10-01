@@ -49,7 +49,7 @@ public class Zadatak2 {
             driver
                     .findElement(By.cssSelector(".new-todo")).sendKeys(toDos.get(i));
             driver
-                    .findElement(By.cssSelector(".new-todo")).sendKeys(Keys.ENTER);
+                    .findElement(By.cssSelector(".new-todo")).sendKeys(Keys.ENTERz);
 
         }
 
